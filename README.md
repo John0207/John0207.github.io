@@ -36,12 +36,27 @@ Communication to Stakeholders</p>
 	Another key lesson in most of the courses I took was that security should always be a major concern when developing software. There are a seemingly endless number of things that can go wrong security wise if a security mindset is not used. Buffer overflows, insecure input, or lack of proper authentication can all become major security issues which in some cases can lead to security breaches which impact millions of people. In CS 405: Secure Coding, we conducted a secure code audit on C++ source code for a utility company management software. The audit documented dozens of security vulnerabilities from String formatted output, memory management, pointer errors, and more. I learned the importance of using security analysis software tools in combination with detailed manual reviews. In CS 410: Reverse Software Engineering we disassembled binary files and were shown how this can make security vulnerabilities apparent. This highlighted the importance of having secure code, as reverse engineering can always be used to find vulnerabilities which are left in code.
 </p>
 
-### Code Review
+## Code Review
+
+<p>This is my code review for my capstone project. Here I go over the project at the begining of the course. I demonstrate the original functionality, give an in-depth review of the code, and list the improvements I planned to make.</p>
 
 <iframe src="https://drive.google.com/file/d/1XwKoqgS9Z2hAR0Y6GwC1p6zC-jRuWSwr/preview" width="640" height="480"></iframe>
 
-## Software Engineering Enhancement
+## Capstone Project Introduction
+<p>
+	The project, which I have named “EnvPi”, uses Python, HTML, and some JavaScript with CanvasJS. I orginally developed envPi in the CS 350: Emerging Systems Architectures and Technologies course at SNHU. The hardware consists of a grovepi+ board attached to a Raspberry Pi model 3 B+. The project takes data from a light sensor, a humidity sensor, and a temperature sensor attached to the pi. If the light sensor indicates that the light is on then the temperature and humidity is displayed on an attached LCD screen, and recordings of the data are stored in an array and sent to a .json file.
+</p>
+<p>
+        The color of the LCD screen is changed to either red, green, blue, or light blue depending on the temperature and humidity. Values which are benchmarks can be set in the code. The data from the file is displayed in a graph using HTML and CanvasJS.
+</p>
+<p>
+	The main reason I chose to include EnviroPi in my portfolio is because out of all the projects I have worked on it is the one that has the most real-world value. The project is far from perfect but nonetheless it would serve the purpose of an environment monitoring system and display. As is, this project does have a real use case in a garden for example. This means the improvements I make will improve on already existing real value as both software and a hardware device. I also enjoy working with IoT devices and technologies, specifically the Raspberry Pi. 
+</p>
+<p>
+	The envPi also demonstrates solid programming foundational skills. I learned a lot originally developing this project in the course CS 350: Emerging Systems Architectures and Technologies, and it is difficult to mention them all, but I will mention the skills which I feel are most valuable. I use consistent and concise comments throughout the project making it easy to read and follow. I follow consistent indentation improving the readability further. I properly define all default variables such as the list for the background colors for the LCD. I correctly implement the use of functions to make the code more efficient, such as with the function for calculating the background color of the LCD. I also demonstrate use of a while loop and account for exceptions. 
+</p>
 
+## Software Engineering Enhancement
 
 ## Algorithmns and Data Structure Enhancement
 
