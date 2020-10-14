@@ -43,8 +43,8 @@ Communication to Stakeholders</p>
 <iframe src="https://drive.google.com/file/d/1wAWk0ekPUS0zROQoBSAq1Beo8ZwgxG_q/view?usp=sharing"></iframe>
 
 ## Capstone Project Introduction
-<p>
-	[Checkout the GitHub Reposiotory!](https://github.com/John0207/envPi)
+
+[Checkout the GitHub Reposiotory!](https://github.com/John0207/envPi)
 <p>
 	The project, which I have named “EnvPi”, uses Python, HTML, and some JavaScript with CanvasJS. I orginally developed envPi in the CS 350: Emerging Systems Architectures and Technologies course at SNHU. The hardware consists of a grovepi+ board attached to a Raspberry Pi model 3 B+. The project takes data from a light sensor, a humidity sensor, and a temperature sensor attached to the pi. If the light sensor indicates that the light is on then the temperature and humidity is displayed on an attached LCD screen, and recordings of the data are stored in an array and sent to a .json file.
 </p>
@@ -81,7 +81,7 @@ I learned a lot while making improvements to the software engineering and design
 The biggest challenge was deciding what needed to be extracted into a function, which functions should go into a separate file, and which parts needed to stay as – is. I was concerned about over complicating the code just to make more functions, so I asked my professor about it and I incorporated his feedback, which was that the functions I extracted were useful and improved the code. Creating the logic for the menu was also challenging. It was difficult to get the code from the menu to run without the while loop executing. I was also unfamiliar with how to read and store input from the user in Python but through trial, error, and documentation I was able to get it to work as I wanted. 
 </p>
 
-## Algorithmns and Data Structure Enhancement
+<h2> Algorithmns and Data Structure Enhancement</h2>
 <ul>
 	<li>Improvement of while loop and algorithms:</li>
 	<li>
@@ -103,5 +103,5 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 			<li>Reorganization of the data structure to store user settings. </li>
 		</ul>
 	</li>
-## Database Enhancement
+	<h2> Database Enhancement</h2>
 
