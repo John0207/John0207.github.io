@@ -83,16 +83,13 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 
 <h2> Algorithmns and Data Structure Enhancement</h2>
 <ul>
-	<li>Improvement of while loop and algorithms:</li>
-	<li>
+	<li>Improvement of while loop and algorithms:</li>	
 		<ul>
 			<li>Re-structured to fully account for possible exceptions.</li>
 			<li>Algorithms account for all cases such as too cold case which was not previously.</li>
 			<li>More graceful termination of loop with new exit message.</li>
-		</ul>
-	</li>
-	<li>Expanding as needed based on improvements:</li>
-	<li>
+		</ul>	
+	<li>Expanding as needed based on improvements:</li>	
 		<ul>
 			<li>Algorithms and data structure added for sending and receiving data to and from Google Firebase.</li>
 			<li>Algorithm to run new data chart in python.</li>
@@ -101,7 +98,6 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 			<li>Adjustment of algorithm for background color to check the most likely cases first.</li>
 			<li>Reorganization of the structure of the data to be stored under a timestamp.</li>
 			<li>Reorganization of the data structure to store user settings. </li>
-		</ul>
-	</li>
+		</ul>	
 	<h2> Database Enhancement</h2>
 
