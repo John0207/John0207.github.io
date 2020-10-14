@@ -67,7 +67,7 @@ Communication to Stakeholders</p>
 	<li>Consistent spacing and indentation, and continuous overall cleanup of the code.</li>
 	<li>Functions
 		<ul>
-			<li>Many functions were extracted out of the code and separated into separate files based on what they do, with much clearer names. The database file is a great example of how I was able to do this.</li>
+			<li>Many functions were extracted out of the code and separated into separate files based on what they do, with much clearer names. The database file is a great example of how I was able to do this. I got the idea to do this from watching Robert Martin’s series “Clean Code”. In one of the videos in the series, Martin mentions that this will “result in a lot of functions”, but that the tradeoff for this is code that “reads like well written prose”. While there are a few extra functions, a reader can clearly find where the execution of my code begins and because of the clearly named functions, understand how the code works overall quickly.</li>
 			<li>The LCD background color function was reordered to check for most likely case first to be more efficient.</li>
 			<li>I extracted code from the function which calculates the background color of the LCD into Boolean environment functions such as too_cold() which makes the code much more readable and easy to work with.</li>
 		</ul>
@@ -82,6 +82,26 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 </p>
 
 ## Algorithmns and Data Structure Enhancement
-
+<ul>
+	<li>Improvement of while loop and algorithms:</li>
+	<li>
+		<ul>
+			<li>Re-structured to fully account for possible exceptions.</li>
+			<li>Algorithms account for all cases such as too cold case which was not previously.</li>
+			<li>More graceful termination of loop with new exit message.</li>
+		</ul>
+	</li>
+	<li>Expanding as needed based on improvements:</li>
+	<li>
+		<ul>
+			<li>Algorithms and data structure added for sending and receiving data to and from Google Firebase.</li>
+			<li>Algorithm to run new data chart in python.</li>
+			<li>Algorithm for new menu, giving the user the option to set their own settings, or an option for viewing the graph and running the system.</li>
+			<li>Algorithm to calculate a timestamp based on when data is recorded.</li>
+			<li>Adjustment of algorithm for background color to check the most likely cases first.</li>
+			<li>Reorganization of the structure of the data to be stored under a timestamp.</li>
+			<li>Reorganization of the data structure to store user settings. </li>
+		</ul>
+	</li>
 ## Database Enhancement
 
