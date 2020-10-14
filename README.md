@@ -101,13 +101,13 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 	</ul>	
 <h2> Database Enhancement</h2>
 <p>Here are the improvements which I made to the envPi regarding the database:</p>
-	<ul>
-		<li>I created a firebase database and authenticated it with the envPi project.</li> 
-		<li>I added functionality to store temperature and humidity data, along with the brightness value underneath a timestamp in firebase database.</li>
-		<li>I added functionality to store settings to determine what is too cold, too hot, too humid, etc.</li> 
-		<li>All code relating to the storing of data is extracted into separate functions and moved to their own file, which is be referenced in the main file as a class.</li> 
-		<li>The chart is created by reading data through a local JSON file, which is populated with data from the Firebase database.<li>
-	</ul>
+<ul>
+	<li>I created a firebase database and authenticated it with the envPi project.</li> 
+	<li>I added functionality to store temperature and humidity data, along with the brightness value underneath a timestamp in firebase database.</li>
+	<li>I added functionality to store settings to determine what is too cold, too hot, too humid, etc.</li> 
+	<li>All code relating to the storing of data is extracted into separate functions and moved to their own file, which is be referenced in the main file as a class.</li> 
+	<li>The chart is created by reading data through a local JSON file, which is populated with data from the Firebase database.</li>
+</ul>
 <p>
 	Making enhancements for the envPi database has been both challenging and rewarding. I am clearly able to see the benefits of separating the database into its own file and working with it and related functions by importing them as a class. This has made working with the database a lot easier. I noticed this when I changed the database to store user defined settings, and when I modified the data to be stored under unique keys with new data (light sensor data and timestamp).</p>
 <p> 
