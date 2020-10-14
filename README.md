@@ -59,17 +59,17 @@ Communication to Stakeholders</p>
 </p>
 
 ## Software Engineering Enhancement
-### List of software improvements:
--Consistent following of best practices and PEP8 guidelines.
--Renaming variables and functions to be clearer and more concise. For example, I renamed threshold to light_threshold. 
--Addition of consistent, clear, necessary comments. For example, I label with comments the different functions in the database file, so it is clear which ones work with the settings, which ones work with the sensor data, and so on. 
--Consistent spacing and indentation, and continuous overall cleanup of the code. 
--Functions:
-1.Many functions were extracted out of the code and separated into separate files based on what they do, with much clearer names. The database file is a great example of how I was able to do this. 
-2.The LCD background color function was reordered to check for most likely case first to be more efficient. 
-3.I extracted code from the function which calculates the background color of the LCD into Boolean environment functions such as too_cold() which makes the code much more readable and easy to work with.
--I created a Menu for the user to set settings or view the chart of data.
--I re-did the graph using the matplotlib python library.
+<p>The following improvements realting to software engineering and design were made to the envPi</p>
+- Consistent following of best practices and PEP8 guidelines.
+- Renaming variables and functions to be clearer and more concise. For example, I renamed threshold to light_threshold. 
+- Addition of consistent, clear, necessary comments. For example, I label with comments the different functions in the database file, so it is clear which ones work with the settings, which ones work with the sensor data, and so on. 
+- Consistent spacing and indentation, and continuous overall cleanup of the code. 
+- Functions
+    1.Many functions were extracted out of the code and separated into separate files based on what they do, with much clearer names. The database file is a great example of how I was able to do this. 
+    2.The LCD background color function was reordered to check for most likely case first to be more efficient. 
+    3.I extracted code from the function which calculates the background color of the LCD into Boolean environment functions such as too_cold() which makes the code much more readable and easy to work with.
+- I created a Menu for the user to set settings or view the chart of data.
+- I re-did the graph using the matplotlib python library.
 <p>
 I learned a lot while making improvements to the software engineering and design of envPi. I learned that things that may seem to have a small impact like naming conventions and consistent spacing and indentation can have a major impact on readability. I also noticed how much easier it was to make other enhancements once I improved the readability. The most important lesson I learned was learning the value of extracting as many functions as possible and giving them well written names. Doing this made the main logic of code much easier to understand, especially for others reading my code. It also made things much easier going forward. After this change I felt as if my code was organized, and I knew exactly where to go to make changes as I decided upon changes to make. It really made things much easier for me and I have learned it is well worth the time, effort, and extra code to get clean and organized code in return. 
 </p>
