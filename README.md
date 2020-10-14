@@ -44,6 +44,8 @@ Communication to Stakeholders</p>
 
 ## Capstone Project Introduction
 <p>
+	[Checkout the GitHub Reposiotory!](https://github.com/John0207/envPi)
+<p>
 	The project, which I have named “EnvPi”, uses Python, HTML, and some JavaScript with CanvasJS. I orginally developed envPi in the CS 350: Emerging Systems Architectures and Technologies course at SNHU. The hardware consists of a grovepi+ board attached to a Raspberry Pi model 3 B+. The project takes data from a light sensor, a humidity sensor, and a temperature sensor attached to the pi. If the light sensor indicates that the light is on then the temperature and humidity is displayed on an attached LCD screen, and recordings of the data are stored in an array and sent to a .json file.
 </p>
 <p>
@@ -57,6 +59,23 @@ Communication to Stakeholders</p>
 </p>
 
 ## Software Engineering Enhancement
+###	List of software improvements:
+-	Consistent following of best practices and PEP8 guidelines.
+-	Renaming variables and functions to be clearer and more concise. For example, I renamed threshold to light_threshold. 
+-	Addition of consistent, clear, necessary comments. For example, I label with comments the different functions in the database file, so it is clear which ones work with the settings, which ones work with the sensor data, and so on. 
+-	Consistent spacing and indentation, and continuous overall cleanup of the code. 
+-	Functions:
+1.	Many functions were extracted out of the code and separated into separate files based on what they do, with much clearer names. The database file is a great example of how I was able to do this. 
+2.	The LCD background color function was reordered to check for most likely case first to be more efficient. 
+3.	I extracted code from the function which calculates the background color of the LCD into Boolean environment functions such as too_cold() which makes the code much more readable and easy to work with.
+-	I created a Menu for the user to set settings or view the chart of data.
+-	I re-did the graph using the matplotlib python library.
+<p>
+I learned a lot while making improvements to the software engineering and design of envPi. I learned that things that may seem to have a small impact like naming conventions and consistent spacing and indentation can have a major impact on readability. I also noticed how much easier it was to make other enhancements once I improved the readability. The most important lesson I learned was learning the value of extracting as many functions as possible and giving them well written names. Doing this made the main logic of code much easier to understand, especially for others reading my code. It also made things much easier going forward. After this change I felt as if my code was organized, and I knew exactly where to go to make changes as I decided upon changes to make. It really made things much easier for me and I have learned it is well worth the time, effort, and extra code to get clean and organized code in return. 
+</p>
+<p>
+The biggest challenge was deciding what needed to be extracted into a function, which functions should go into a separate file, and which parts needed to stay as – is. I was concerned about over complicating the code just to make more functions, so I asked my professor about it and I incorporated his feedback, which was that the functions I extracted were useful and improved the code. Creating the logic for the menu was also challenging. It was difficult to get the code from the menu to run without the while loop executing. I was also unfamiliar with how to read and store input from the user in Python but through trial, error, and documentation I was able to get it to work as I wanted. 
+</p>
 
 ## Algorithmns and Data Structure Enhancement
 
