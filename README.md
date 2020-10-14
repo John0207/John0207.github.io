@@ -84,20 +84,35 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 <h2> Algorithmns and Data Structure Enhancement</h2>
 <ul>
 	<li>Improvement of while loop and algorithms:</li>	
-		<ul>
-			<li>Re-structured to fully account for possible exceptions.</li>
-			<li>Algorithms account for all cases such as too cold case which was not previously.</li>
-			<li>More graceful termination of loop with new exit message.</li>
-		</ul>	
+	<ul>
+		<li>Re-structured to fully account for possible exceptions.</li>
+		<li>Algorithms account for all cases such as too cold case which was not previously.</li>
+		<li>More graceful termination of loop with new exit message.</li>
+	</ul>	
 	<li>Expanding as needed based on improvements:</li>	
-		<ul>
-			<li>Algorithms and data structure added for sending and receiving data to and from Google Firebase.</li>
-			<li>Algorithm to run new data chart in python.</li>
-			<li>Algorithm for new menu, giving the user the option to set their own settings, or an option for viewing the graph and running the system.</li>
-			<li>Algorithm to calculate a timestamp based on when data is recorded.</li>
-			<li>Adjustment of algorithm for background color to check the most likely cases first.</li>
-			<li>Reorganization of the structure of the data to be stored under a timestamp.</li>
-			<li>Reorganization of the data structure to store user settings. </li>
-		</ul>	
-	<h2> Database Enhancement</h2>
+	<ul>
+		<li>Algorithms and data structure added for sending and receiving data to and from Google Firebase.</li>
+		<li>Algorithm to run new data chart in python.</li>
+		<li>Algorithm for new menu, giving the user the option to set their own settings, or an option for viewing the graph and running the system.</li>
+		<li>Algorithm to calculate a timestamp based on when data is recorded.</li>
+		<li>Adjustment of algorithm for background color to check the most likely cases first.</li>
+		<li>Reorganization of the structure of the data to be stored under a timestamp.</li>
+		<li>Reorganization of the data structure to store user settings. </li>
+	</ul>	
+<h2> Database Enhancement</h2>
+<p>Here are the improvements which I made to the envPi regarding the database:</p>
+<ul>
+	<li>I created a firebase database and authenticated it with the envPi project.</li> 
+	<li>I added functionality to store temperature and humidity data, along with the brightness value underneath a timestamp in firebase database.</li>
+	<li>I added functionality to store settings to determine what is too cold, too hot, too humid, etc.</li> 
+	<li>All code relating to the storing of data is extracted into separate functions and moved to their own file, which is be referenced in the main file as a class.</li> 
+	<li>The chart is created by reading data through a local JSON file, which is populated with data from the Firebase database.<li>
+</ul>
+<p>
+	Making enhancements for the envPi database has been both challenging and rewarding. I am clearly able to see the benefits of separating the database into its own file and working with it and related functions by importing them as a class. This has made working with the database a lot easier. I noticed this when I changed the database to store user defined settings, and when I modified the data to be stored under unique keys with new data (light sensor data and timestamp).</p>
+<p> 
+    I was mainly challenged trying to read the environment data from Firebase into a chart to chart the data. Originally, I had difficulty trying to use the data from the database with the chart. I was able to solve this issue by reading from the database into a local file and using that to populate the data. I also refactored the data structure so that the data was no longer under a unique ID number, making it much easier to read from. I have learned that while a design may be best suited for one purpose, it may cause issues with a different purpose. 
+</p>
+	
+	
 
