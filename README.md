@@ -40,7 +40,7 @@ Communication to Stakeholders</p>
 
 <p>This is my code review for my capstone project. Here I go over the project at the begining of the course. I demonstrate the original functionality, give an in-depth review of the code, and list the improvements I planned to make.</p>
 
-<iframe src="https://drive.google.com/file/d/1wAWk0ekPUS0zROQoBSAq1Beo8ZwgxG_q/view?usp=sharing"></iframe>
+<iframe src="https://drive.google.com/file/d/1wAWk0ekPUS0zROQoBSAq1Beo8ZwgxG_q/preview" width="640" height="480"></iframe>
 
 ## Capstone Project Introduction
 
