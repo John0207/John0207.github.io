@@ -1,7 +1,3 @@
-<p>You can use the [editor on GitHub](https://github.com/John0207/John0207.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.</p>
-
 # Introduction
 <p>
 It was certainly a long journey, but now that I am finished with my time at SNHU I can reflect on my growth, both as a software developer and modern and as a life-long learner. I originally began at SNHU as a criminal Justice major. After taking a few classes I began to realize that this career path was not for me. I had always had great interest in technology and growing up I spent a lot of time tinkering with anything I could get my hands on. I had drifted away from this interest in the first few years of my adult life but as I began to search for new career options my love of technology and computers came back. I thought back on taking an introduction to webpage design class in high school and how much I enjoyed writing code and designing my own websites. From there it was not long before I had switched my major to computer science with a concentration in software engineering.
@@ -43,8 +39,9 @@ Communication to Stakeholders</p>
 <iframe src="https://drive.google.com/file/d/1wAWk0ekPUS0zROQoBSAq1Beo8ZwgxG_q/preview" width="640" height="480"></iframe>
 
 ## Capstone Project Introduction
+[Original Project Repository.](https://github.com/John0207/cs350_original_artifact)
 
-[Checkout the GitHub Reposiotory!](https://github.com/John0207/envPi)
+[Improved envPi GitHub Reposiotory.](https://github.com/John0207/envPi)
 <p>
 	The project, which I have named “EnvPi”, uses Python, HTML, and some JavaScript with CanvasJS. I orginally developed envPi in the CS 350: Emerging Systems Architectures and Technologies course at SNHU. The hardware consists of a grovepi+ board attached to a Raspberry Pi model 3 B+. The project takes data from a light sensor, a humidity sensor, and a temperature sensor attached to the pi. If the light sensor indicates that the light is on then the temperature and humidity is displayed on an attached LCD screen, and recordings of the data are stored in an array and sent to a .json file.
 </p>
