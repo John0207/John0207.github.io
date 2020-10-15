@@ -31,6 +31,22 @@ Throughout my time in the Computer Science program at SNHU I have worked hard to
 <p>
 	Another key lesson in most of the courses I took was that security should always be a major concern when developing software. There are a seemingly endless number of things that can go wrong security wise if a security mindset is not used. Buffer overflows, insecure input, or lack of proper authentication can all become major security issues which in some cases can lead to security breaches which impact millions of people. In CS 405: Secure Coding, we conducted a secure code audit on C++ source code for a utility company management software. The audit documented dozens of security vulnerabilities from String formatted output, memory management, pointer errors, and more. I learned the importance of using security analysis software tools in combination with detailed manual reviews. In CS 410: Reverse Software Engineering we disassembled binary files and were shown how this can make security vulnerabilities apparent. This highlighted the importance of having secure code, as reverse engineering can always be used to find vulnerabilities which are left in code.
 </p>
+<h2>Summary</h2>
+<p>To best showcase my skillset relating to these topics, I chose to utilize a project which I originally developed in the CS 350: Emerging Systems Architectures and Technologies course at SNHU. The project originally charted data from a temperature and humidity sensor and displayed the readings on an LCD which changes color based on the readings. I go into much further detail in my code review and throughout my portfolio, but I wanted to provide a brief and concise review of what I planned to change originally versus what changes I ended up implementing. Please review the rest of the portfolio and the two GitHub repositories for a much more detailed analysis of my work. </p>
+
+<h2>Originally Planned Enhancements</h2>
+<ul>
+	<li>Code cleanup and best practice review.</li>
+	<li>Separation of code into functions and classes, such as the logic to append the data to the json file.</li>
+	<li>New and improved graph of the data done in python as opposed to CanvasJS and HTML.</li>
+	<li>Firebase Database which will store temp, humid, light under a timestamp for each recording, and user settings, with authentication. </li>
+	<li>Fix of background LCD function and improvement colors.</li>
+	<li>Command line menu with options to set settings or display the graph.</li>
+	<li>Graphical user interface with same options as the command line menu. This could incorporate the chart, and display the current temperature and humidity using the real-time database with a weather-related background image.</li>
+</ul>
+<h2>Completed Enhancements</h2>
+<p>I go into much more detail throughout the portfolio but in short, the only planned enhancement which I did not implement was the graphical user interface. I was able to make an extremely simple GUI which read the latest temperature and humidity from the database over a picture of a sunny sky. However, I ran into problems when I tried to do more than that. Essentially it was more of a graphical display, because the user could not interface with it at all. I explored a few options for getting this done, but in the end, I decided that this was out of the scope of this project. A GUI would have been nice, but it would not provide much value over the graph I already had, and the interface through the Google Firebase Database. I chose to focus on developing the other improvements I planned and refining the final product.</p>
+<p>I was able to complete all other enhancements as planned, although that does not mean I did not have complications. Many times, it felt that the improvements I was trying to make were impossible. For example, I had a hard time figuring out how to parse through the array of data when reading data from Firebase to use in my graph. Reading through documentation and much trial and error lead me to figure out how to do this, and it ended up being a pretty simple fix. You can see how I accomplish this in the json_reading.py file of the envPi repository. I also had difficulty creating the menu. I struggled both with organizing what I wanted the menu options to be and getting the menu loop to run without running the main loop of the envPi project. Again, my savior was documentation and trial and error. </p>
 
 ## Code Review
 
@@ -83,7 +99,7 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 	<li>Improvement of while loop and algorithms:</li>	
 	<ul>
 		<li>Re-structured to fully account for possible exceptions.</li>
-		<li>Algorithms account for all cases such as too cold case which was not previously.</li>
+		<li>Algorithms account for all cases such as too cold case which previously caused an error.</li>
 		<li>More graceful termination of loop with new exit message.</li>
 	</ul>	
 	<li>Expanding as needed based on improvements:</li>	
@@ -95,7 +111,12 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 		<li>Adjustment of algorithm for background color to check the most likely cases first.</li>
 		<li>Reorganization of the structure of the data to be stored under a timestamp.</li>
 		<li>Reorganization of the data structure to store user settings. </li>
-	</ul>	
+	</ul>
+<p>
+		        I learned a great deal in developing the algorithm and data structure for this project. Learning how to make the code more readable and easier to work with was something I consider to be very valuable, and it was an area where I was lacking. Proper, consistent naming conventions, and spacing makes a big difference. Also, having functions which only do one thing made the code much easier to work with, and easier to understand as well. Seeing this improvement in my code will heavily impact how I write code form now on. This was a challenge for me as I had struggled with this in the past. After a few attempts I was able to figure out a good ratio of simple functions without over complicating the code. It felt like a big achievement when I had the functions separated as I wanted them. 
+         The importance of efficiency and testing were also things that I have learned working on these enhancements. Testing the algorithm to figure out it did not work if the temperature was too cold was a wake-up call of sorts to the importance of testing. I also learned that small changes in order of an algorithm can have a profound impact. Ordering the calculation of the color for the LCD by the most likely case made the program much more efficient. Improving what seems like minute details will be something I focus more on in the future. 
+</p>
+	
 <h2> Database Enhancement</h2>
 <p>Here are the improvements which I made to the envPi regarding the database:</p>
 <ul>
