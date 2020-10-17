@@ -90,7 +90,7 @@ Throughout my time in the Computer Science program at SNHU I have worked hard to
 	<li>Consistent spacing and indentation, and continuous overall cleanup of the code.</li>
 	<li>Functions
 		<ul>
-			<li>Many functions were extracted out of the code and separated into separate files based on what they do, with much clearer names. The database file is a great example of how I was able to do this. I got the idea to do this from watching Robert Martin’s series “Clean Code”. In one of the videos in the series, Martin mentions that this will “result in a lot of functions”, but that the tradeoff for this is code that “reads like well written prose”. While there are a few extra functions, a reader can clearly find where the execution of my code begins and because of the clearly named functions, understand how the code works overall quickly.</li>
+			<li>Many functions were extracted out of the code and separated into separate files based on what they do, with much clearer names. The database file is a great example of how I was able to do this. I originally got the idea to do this from watching Robert Martin’s series “Clean Code”. After orignanly extracting just a few functions, I incorporated the process to the database functionsm based on feedback from my instructor. In one of the videos in the series, Martin mentions that this will “result in a lot of functions”, but that the tradeoff for this is code that “reads like well written prose”. While there are a few extra functions, a reader can clearly find where the execution of my code begins and because of the clearly named functions, understand how the code works overall quickly.</li>
 			<li>The LCD background color function was reordered to check for most likely case first to be more efficient.</li>
 			<li>I extracted code from the function which calculates the background color of the LCD into Boolean environment functions such as too_cold() which makes the code much more readable and easy to work with.</li>
 		</ul>
@@ -141,7 +141,7 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 	<li>I created a firebase database and authenticated it with the envPi project.</li> 
 	<li>I added functionality to store temperature and humidity data, along with the brightness value underneath a timestamp in the Firebase database.</li>
 	<li>I added functionality to store settings to determine what is too cold, too hot, too humid, etc.</li> 
-	<li>All code relating to the storing of data is extracted into separate functions and moved to their own file, which is be referenced in the main file as a class.</li> 
+	<li>All code relating to the storing of data is extracted into separate functions and moved to their own file, which is referenced in the main file as a class.</li> 
 	<li>The chart is created by reading data through a local JSON file, which is populated with data from the Firebase database.</li>
 </ul>
 <p>
