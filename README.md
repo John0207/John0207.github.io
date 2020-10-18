@@ -97,6 +97,7 @@ Throughout my time in the Computer Science program at SNHU I have worked hard to
 	</li>
 	<li>I created a Menu for the user to set settings or view the chart of data.</li>
 	<li>I re-did the graph using the matplotlib python library.</li>
+<img src="Images/Image_of_Firebase_Database.png">
 <p>
 I learned a lot while making improvements to the software engineering and design of envPi. I learned that things that may seem to have a small impact like naming conventions, consistent spacing, and indentation can have a major impact on readability. I also noticed how much easier it was to make other enhancements once I improved the readability. 
 </p>
