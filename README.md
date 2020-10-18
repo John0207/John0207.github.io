@@ -6,7 +6,7 @@ It was certainly a long journey, but now that I am finished with my time at SNHU
 Throughout my time in the Computer Science program at SNHU I have worked hard to learn and develop skills to prepare myself for a career in the software industry. While I learned many valuable concepts, there are a few in particular that stand out and better showcase my strengths.
 </p>
 
-# Self Assesment
+# Self-Assessment
 ## Team Collaboration
 <p>
 	It is challenging to learn to write software, and even more challenging to learn to do so with others in a way that allows for a collaborative and productive environment for everyone. In CS 310 Team Collaboration; a class specific to the software engineering concentration, I learned skills to do just that. I learned how to use Git and GitHub to work as a team concurrently on the same piece of software. I learned to create separate branches to work on our own assigned parts of a central project and merge them together once they were complete and tested. I also learned specific skills related to working with others that I feel often do not get mentioned at the developer level.</p>
@@ -61,29 +61,29 @@ Throughout my time in the Computer Science program at SNHU I have worked hard to
 
 ## Code Review
 
-<p>This is my code review for my capstone project. Here I go over the project at the begining of the course. I demonstrate the original functionality, give an in-depth review of the code, and list the improvements I planned to make.</p>
+<p>This is my code review for my capstone project. Here I go over the project at the beginning of the course. I demonstrate the original functionality, give an in-depth review of the code, and list the improvements I planned to make.</p>
 
 <iframe src="https://drive.google.com/file/d/1wAWk0ekPUS0zROQoBSAq1Beo8ZwgxG_q/preview" width="640" height="480"></iframe>
 
 ## Capstone Project Introduction
 [Original Project Repository.](https://github.com/John0207/cs350_original_artifact)
 
-[Improved envPi GitHub Reposiotory.](https://github.com/John0207/envPi)
+[Improved envPi GitHub Repository.](https://github.com/John0207/envPi)
 <p>
-	The project, which I have named “EnvPi”, uses Python, HTML, and some JavaScript with CanvasJS. I orginally developed envPi in the CS 350: Emerging Systems Architectures and Technologies course at SNHU. The hardware consists of a grovepi+ board attached to a Raspberry Pi model 3 B+. The project takes data from a light sensor, a humidity sensor, and a temperature sensor attached to the Pi. If the light sensor indicates that the light is on then the temperature and humidity is displayed on an attached LCD screen, and recordings of the data are stored in an array and sent to a .json file.
+	The project, which I have named “EnvPi”, uses Python, HTML, and some JavaScript with CanvasJS. I originally developed envPi in the CS 350: Emerging Systems Architectures and Technologies course at SNHU. The hardware consists of a grovepi+ board attached to a Raspberry Pi model 3 B+. The project takes data from a light sensor, a humidity sensor, and a temperature sensor attached to the Pi. If the light sensor indicates that the light is on then the temperature and humidity is displayed on an attached LCD screen, and recordings of the data are stored in an array and sent to a .json file.
 </p>
 <p>
-        With the orignal version, the color of the LCD screen is changed to either red, green, blue, or light blue depending on the temperature and humidity. Values which are benchmarks can be set in the code. The data from the file is displayed in a graph using HTML and CanvasJS.
+        With the original version, the color of the LCD screen is changed to either red, green, blue, or light blue depending on the temperature and humidity. Values which are benchmarks can be set in the code. The data from the file is displayed in a graph using HTML and CanvasJS.
 </p>
 <p>
-	The main reason I chose to include envPi orignally in my portfolio is because out of all the projects I have worked on it is the one that has the most real-world value. The project is far from perfect but nonetheless it would serve the purpose of an environment monitoring system and display. As is, this project does have a real use case in a garden for example. This means the improvements I make will improve on already existing real value as both software and a hardware device. I also enjoy working with IoT devices and technologies, specifically the Raspberry Pi. 
+	The main reason I chose to include envPi originally in my portfolio is because out of all the projects I have worked on it is the one that has the most real-world value. The project is far from perfect but nonetheless it would serve the purpose of an environment monitoring system and display. As is, this project does have a real use case in a garden for example. This means the improvements I make will improve on already existing real value as both software and a hardware device. I also enjoy working with IoT devices and technologies, specifically the Raspberry Pi. 
 </p>
 <p>
 	The envPi also demonstrates solid programming foundational skills. I learned a lot originally developing this project in the course CS 350: Emerging Systems Architectures and Technologies, and it is difficult to mention them all, but I will mention the skills which I feel are most valuable. I use consistent and concise comments throughout the project making it easy to read and follow. I follow consistent indentation improving the readability further. I properly define all default variables such as the list for the background colors for the LCD. I correctly implement the use of functions to make the code more efficient, such as with the function for calculating the background color of the LCD. I also demonstrate use of a while loop and account for exceptions. 
 </p>
 
 ## Software Engineering Enhancement
-<p>The following improvements realting to software engineering and design were made to the envPi: </p>
+<p>The following improvements relating to software engineering and design were made to the envPi: </p>
 <ul>
 	<li>Consistent following of best practices and PEP8 guidelines.</li>
 	<li>Renaming variables and functions to be clearer and more concise. As one example, I renamed threshold to light_threshold.</li>
@@ -115,7 +115,7 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 <a href="https://www.youtube.com/watch?v=7EmboKQH8lM">Checkout Robert Martin’s series Clean Code!</a>
 	
 
-<h2> Algorithmns and Data Structure Enhancement</h2>
+<h2> Algorithms and Data Structure Enhancement</h2>
 <ul>
 	<li>Improvement of while loop and algorithms:</li>	
 	<ul>
@@ -141,7 +141,7 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 </p>
 	
 <p>
-By comparing the psuedo code of the function used to calculate the background color of the lcd with it's orignal version it is clear how I restructered the algorithmn to account for all cases. The function is also a lot easier to read and understand.
+By comparing the pseudo code of the function used to calculate the background color of the lcd with its original version it is clear how I restructured the algorithm to account for all cases. The function is also a lot easier to read and understand.
 </p>
 <img src="Images/psuedo_background_lcd.png">
 	
