@@ -111,7 +111,9 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 <p>	
 	Creating the logic for the menu was also challenging. It was difficult to get the code from the menu to run without the while loop executing. I was also unfamiliar with how to read and store input from the user in Python but through trial, error, and documentation I was able to get it to work as I wanted. 
 </p>
-	[Checkout Robert Martin’s series Clean Code!](https://www.youtube.com/watch?v=7EmboKQH8lM)
+	
+[Checkout Robert Martin’s series Clean Code](https://www.youtube.com/watch?v=7EmboKQH8lM)
+	
 
 <h2> Algorithmns and Data Structure Enhancement</h2>
 <ul>
