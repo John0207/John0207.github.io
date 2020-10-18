@@ -140,7 +140,7 @@ By comparing the psuedo of the functiopn used to calculate the background color 
 </p>
 <h5>Orignial function to calculate what the background color of the lcd should be</h5>
 
-```
+```python
 
 Function calcBG(temp_int, humid_int):
 	Initialize list to store background colors bgList to [0,0,0]
