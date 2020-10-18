@@ -29,7 +29,7 @@ Throughout my time in the Computer Science program at SNHU I have worked hard to
 </p>
 ## Software Engineering and Databases
 <p>
-	Throughout my degree I learned many aspects of software development over a broad scope of courses. It is difficult to discuss everything because there is such a wide variety of topics. I was introduced to basic programming concepts in CS-200 with Python as my introductory language, with Java being introduced next in IT 145 to solidify those basic concepts. I learned the importance of object-oriented design in IT-315 Object Oriented Analysis and Design, and the importance of testing in CS 320: Software Testing, Automation, and Quality Assurance. I also learned to work with graphical applications using C++ in CS 330: Computational Graphics and Visualization, and to develop mobile applications in CS 360: Mobile Architecture and Programming.
+	Throughout my degree I learned many aspects of software development over a broad scope of courses. It is difficult to discuss everything because there is such a wide variety of topics. I was introduced to basic programming concepts in CS-200 with Python as my introductory language, with Java being introduced next in IT 145 to solidify those basic concepts. I learned the importance of object-oriented design in IT-315 Object Oriented Analysis and Design, and the importance of testing in CS 320: Software Testing, Automation, and Quality Assurance. I also learned to work with graphical applications using C++ in CS 330: Computational Graphics and Visualization, and to develop mobile applications in CS 360: Mobile Architecture and Programming. Checkout the final project I made in CS 330 [here](https://github.com/John0207/3d_chair) where I showcase similar software development skills. 
 </p>
 <p>	
 	In the broad scope of topics, I learned and worked with, databases were often a key component. I learned the basics of SQL and built a database in DAD 220: Introduction to SQL. In CS 340: Advanced Programming Concepts, I learned to use MongoDB to build NoSQL databases, and built on software engineering concepts learned in introductory courses. I also took DAT 220: Fundamentals of Data Mining, which focused more on the data aspect of databases rather than the design. I found this class the most interesting out of the other database courses because it showed how data mining can be used to extract immense value out of a collection of data.
@@ -40,6 +40,7 @@ Throughout my time in the Computer Science program at SNHU I have worked hard to
 </p>
 <h2>Summary</h2>
 <p>To best showcase my skillset relating to these topics, I chose to utilize a project which I originally developed in the CS 350: Emerging Systems Architectures and Technologies course at SNHU. The project originally charted data from a temperature and humidity sensor and displayed the readings on an LCD which changes color based on the readings. I go into much further detail in my code review and throughout my portfolio, but I wanted to provide a brief and concise review of what I planned to change originally versus what changes I ended up implementing. Please review the rest of the portfolio and the two GitHub repositories for a much more detailed analysis of my work. </p>
+
 
 <h2>Originally Planned Enhancements</h2>
 <ul>
