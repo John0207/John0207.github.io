@@ -139,7 +139,7 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 By comparing the psuedo of the functiopn used to calculate the background color of the lcd with it's orignal version it is clear how I restructered the algorithmn to account for all cases. The functions is also a lot easier to read and understand.
 </p>
 <h5>Orignial function to calculate what the background color of the lcd should be</h5>
-'''
+```
 Function calcBG(temp_int, humid_int):
 	Initialize list to store background colors bgList to [0,0,0]
 	If ((temp_int > justRightTemp) and (temp_int < tooHigh) and (humid_int < justRightHumid)):
@@ -160,9 +160,9 @@ Function calcBG(temp_int, humid_int):
 		Set bgG to 255
 	Set bgList to [ gbR, bgG, bgB]
 	Return bgList
-'''
+```
 <h5>Improved function:</h5>
-'''
+```
 Function calculate_lcd_background_color (temp_int, humid_int):
 		Initialize background_color_list to [0,0,0]
 		If comfortable():
@@ -188,7 +188,7 @@ Function calculate_lcd_background_color (temp_int, humid_int):
   		background_color_list = [r, g, b]
 		return background_color_list
 
-'''
+```
 
 	
 <h2> Database Enhancement</h2>
