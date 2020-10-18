@@ -138,62 +138,11 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 <p>
 By comparing the psuedo of the functiopn used to calculate the background color of the lcd with it's orignal version it is clear how I restructered the algorithmn to account for all cases. The functions is also a lot easier to read and understand.
 </p>
-<h5>Orignial function to calculate what the background color of the lcd should be</h5>
+[Orignial function to calculate what the background color of the lcd should be](Images/background_color_function_psuedo_code_comparison.png)
 
-~~~
-
-Function calcBG(temp_int, humid_int):
-
-~~~
-	Initialize list to store background colors bgList to [0,0,0]
-	If ((temp_int > justRightTemp) and (temp_int < tooHigh) and (humid_int < justRightHumid)):
-		Set bgR to 0
-		Set bgG to 0
-		Set bgB to 255
-	else if ((temp_int >= tooLow) and (temp_int <= justRightTemp) and (humid_int < justRightHumid)):
-		Set bgR to 0
-		Set bgB to 0
-		Set bgG to 255
-	else if (temp_int >= tooHigh): 
-		Set bgR to 255
-		Set bgB to 0
-		Set bgG to 0
-	else if (humid_int >= justRightHumid):
-		Set bgR to 0
-		Set bgB to 255
-		Set bgG to 255
-	Set bgList to [ gbR, bgG, bgB]
-	Return bgList
-	
 
 
 <h5>Improved function:</h5>
-
-
-Function calculate_lcd_background_color (temp_int, humid_int):
-		Initialize background_color_list to [0,0,0]
-		If comfortable():
-			Set r = 0
-			Set g = 255
-			Set b = 0
-		else if warm():
-			set r = 255
-       	  	       	set g = 62
-        		set b = 0
-		else if too_humid():
-			set  r = 0
-			set   g = 255
-			set b = 128
-		else if too_hot():
-		        set  r = 255
-		        set  g = 0
-		        set b = 0
-	        else if too_cold():
-		    	set r = 0
-		    	set g = 0
-		    	set  b = 255
-  		background_color_list = [r, g, b]
-		return background_color_list
 
 
 
