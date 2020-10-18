@@ -91,7 +91,7 @@ Throughout my time in the Computer Science program at SNHU I have worked hard to
 	<li>Consistent spacing and indentation, and continuous overall cleanup of the code.</li>
 	<li>Functions
 		<ul>
-			<li>Many functions were extracted out of the code and separated into separate files based on what they do, with much clearer names. The database file is a great example of how I was able to do this. I originally got the idea to do this from watching [Robert Martin’s series “Clean Code”.](https://www.youtube.com/watch?v=7EmboKQH8lM). After originally extracting just a few functions, I incorporated the process to the database functions based on feedback from my instructor. In one of the videos in the series, Martin mentions that this will “result in a lot of functions”, but that the trade-off for this is code that “reads like well written prose”. While there are a few extra functions, a reader can clearly find where the execution of my code begins. Additionally, because of the clearly named functions, they can understand how the code works quickly as well.</li>
+			<li>Many functions were extracted out of the code and separated into separate files based on what they do, with much clearer names. The database file is a great example of how I was able to do this. I originally got the idea to do this from watching Robert Martin’s series Clean Code. After originally extracting just a few functions, I incorporated the process to the database functions based on feedback from my instructor. In one of the videos in the series, Martin mentions that this will “result in a lot of functions”, but that the trade-off for this is code that “reads like well written prose”. While there are a few extra functions, a reader can clearly find where the execution of my code begins. Additionally, because of the clearly named functions, they can understand how the code works quickly as well.</li>
 			<li>The LCD background color function was reordered to check for most likely case first to be more efficient.</li>
 			<li>I extracted code from the function which calculates the background color of the LCD into Boolean environment functions such as too_cold() which makes the code much more readable and easy to work with.</li>
 		</ul>
@@ -111,6 +111,7 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 <p>	
 	Creating the logic for the menu was also challenging. It was difficult to get the code from the menu to run without the while loop executing. I was also unfamiliar with how to read and store input from the user in Python but through trial, error, and documentation I was able to get it to work as I wanted. 
 </p>
+	[Checkout Robert Martin’s series Clean Code!](https://www.youtube.com/watch?v=7EmboKQH8lM)
 
 <h2> Algorithmns and Data Structure Enhancement</h2>
 <ul>
