@@ -138,15 +138,7 @@ The biggest challenge was deciding what needed to be extracted into a function, 
 <p>
 By comparing the psuedo of the functiopn used to calculate the background color of the lcd with it's orignal version it is clear how I restructered the algorithmn to account for all cases. The functions is also a lot easier to read and understand.
 </p>
-<h4>Orignial function to calculate what the background color of the lcd should be</h4>
-<img src="Images/background_color_function_psuedo_code_comparison.png" style="width:300px">
-
-
-
-<h5>Improved function:</h5>
-
-
-
+<img src="Images/background_color_function_psuedo_code_comparison.png">
 	
 <h2> Database Enhancement</h2>
 <p>Here are the improvements which I made to the envPi regarding the database:</p>
